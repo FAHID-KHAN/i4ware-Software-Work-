@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+<title>i4ware Software</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: sans-serif,monospace}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url(images/i4ware-software-ebooks.jpg);
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 30px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">i4ware Software </a>
+      <img width="250" height="90" src="https://www.i4ware.fi/wp-content/uploads/2012/07/logo.gif" class="custom-logo" alt="i4ware Software">
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+      <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> CAREERS</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">CAREERS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small"></span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium"></span><br> 
+    <span class="w3-large"></span> 
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off"></a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT THE COMPANY</h3>
+  <p class="w3-center w3-large">Key features of our company</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Who We Are!</p>
+      <p>i4ware Software provides professional services and products for Application Lifecycle Management and Software Development. We are familiar with various technologies and tools including (X)HTML, XML, CSS, JavaScript, jQuery, Ext JS, PHP, MySQL, PostgreSQL, Zend Framework, Laravel, React, PHPExcel, ActionScript, Flash, Flex, Eclipse, SCRUM, Extreme Programming, Subversion, J2EE, JSP, JavaServlet, Windows and Linux Servers. Our company is focused on making services and products for Windows, Red Hat Enterprise Linux, and Ubuntu Server.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Products</p>
+      <p> 
+          <ul>
+              <li> <a href="https://www.i4ware.fi/products/timesheet-for-confluence/">Timesheet for Confluence</a></li>
+              <li><a href="https://www.i4ware.fi/products/i4ware-timesheet-for-freshdesk/">i4ware – Timesheet for Freshdesk</a> </li>
+              <li> <a href="https://www.i4ware.fi/products/timesheet-and-gantt-chart-for-jira/">Timesheet and Gantt Chart for JIRA</a></li>
+              <li> <a href="https://www.i4ware.fi/products/resume-editor/">Resume Editor</a></li>
+              <li><a href="https://www.i4ware.fi/products/software-development-template/">Software Development Template</a></li>
+              
+        
+        </ul>
+          
+          </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Our Services</p>
+      <p>i4ware Software provides a programming services for companies worldwide. We are most familiar with PHP, Zend Framework, LAravel, React, PHPExcel, MySQL, PostgreSQL, (X)HTML, XML, JavaScript, jQuery, Ext JS, AJAX and CSS for Windows Server, Ubuntu Server and Red Hat Enterprise Linux Server.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Our Technology Partner</p>
+      <p><img src="https://www.i4ware.fi/wp-content/uploads/2017/08/RH_technology_partner_logo_v1_1214clean_rgb_for_web.png" title="Red Hat Technology Partner" border="0"></p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Our Product Mangement</h3>
+      <p><div class="entry-content">
+		
+		
+<p>Dear Sir/Madam,</p>
+<blockquote><p>“i4ware Software provides professional services and products for Application Lifecycle Management and Software Development.Customer Satisfaction is our main priority and we always try to deliver our best work for every client."</p></blockquote>
+<p>Cheers,<br>
+Matti Kiviharju<br>
+CEO &amp; Founder</p>
+		
+				
+	</div> </p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img src="https://www.i4ware.fi/wp-content/uploads/2010/07/IRM_RD-203_class-diagram_DO_NOT_DELETE.png" alt="Scrum and XP">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">The ones who runs this company</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/DSCN0259.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Matti Kihvarju</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>Matti Kiviharju has 22 years worth of experience working in the IT/software development field as a entrepreneur and developing in software companies. Matti sold his first web page to a buying customer in 1995. Matti is not only a product owner, but he also handles the development and has vast experience in the technology field. He is a professional in internet-based solutions, and is widely regarded as a specialist.
+
+My Linkedin Profile is here: http://www.linkedin.com/in/walkout
+
+
+</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/fahid-khan.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Fahid Khan</h3>
+          <p class="w3-opacity">Junior Software Developer</p>
+          <p>A web developer/software developer who is new in the industry but has a lot of desire to learn more with a positive attitude and to prove to the world that positivity always wins. I have a strong desire to develop and from the very childhood I loved computer and i have always wanted my whole life to be a skilled software developer and i am working on that . Hopefully will soon write in my about that “A skilled developer you are seeing ” but now I am focused on learning the technology.
+
+Here is his Linkedin profile: https://www.linkedin.com/in/fahid-a-khan-46758819b/</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/Mafruha_Nuhary.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Mafruha Nuhary</h3>
+          <p class="w3-opacity">Junior Software Developer</p>
+          <p>I am extremely motivated to work as a software engineer. I am a quick
+learner who is eager to get better in this field through trails and fails. I like to
+handle things in a creative, organized and open minded way.
+
+Here is her Linkedin profile: https://www.linkedin.com/in/mafruha-nuhary-7a6a131a3/</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+   
+      <!--<div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        
+        <div class="w3-container">
+         
+          
+        </div>
+      </div>
+    </div> -->
+      
+      
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>Partners
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">55+</span>
+    <br>Projects Done
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">89+</span>
+    <br>Happy Clients
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">150+</span>
+    <br>Meetings
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">OUR WORK</h3>
+  <p class="w3-center w3-large">What we've done for people</p>
+    <div class="entry-content">
+		
+		<p>i4ware Software provides a programming servises for companies worldwide. We are most familiar with PHP, Zend Framework, LAravel, React, PHPExcel, MySQL, PostgreSQL, (X)HTML, XML, JavaScript, jQuery, Ext JS, AJAX and CSS for Windows Server, Ubuntu Server and Red Hat Enterprise Linux Server.</p>
+<p>Watch screen shots of the GUIs which we are done:</p>
+<p><a href="https://www.i4ware.fi/wp-content/uploads/2015/09/tfj-sc-01.jpg"><img src="https://www.i4ware.fi/wp-content/uploads/2015/09/tfj-sc-01-150x150.jpg" alt="tfj-sc-01" class="size-thumbnail wp-image-1899" width="150" height="150"></a> <a href="https://www.i4ware.fi/wp-content/uploads/2012/07/web-reference-04.png"><img src="https://www.i4ware.fi/wp-content/uploads/2012/07/web-reference-04-150x150.png" alt="web-reference-04" class="size-thumbnail wp-image-1319" width="150" height="150"></a> <a href="https://www.i4ware.fi/wp-content/uploads/2012/07/t015.png"><img src="https://www.i4ware.fi/wp-content/uploads/2012/07/t015-150x150.png" alt="t015" class="size-thumbnail wp-image-1348" width="150" height="150"></a> <a href="https://www.i4ware.fi/wp-content/uploads/2012/07/test.png"><img src="https://www.i4ware.fi/wp-content/uploads/2012/07/test-150x150.png" alt="test" class="size-thumbnail wp-image-1352" width="150" height="150"></a> <a href="https://www.i4ware.fi/wp-content/uploads/2012/07/AAS_SCREENSHOT01.png"><img src="https://www.i4ware.fi/wp-content/uploads/2012/07/AAS_SCREENSHOT01-150x150.png" alt="AAS_SCREENSHOT01" class="size-thumbnail wp-image-1280" width="150" height="150"></a> <a href="https://www.i4ware.fi/wp-content/uploads/2015/09/tfj-sc-03.jpg"><img src="https://www.i4ware.fi/wp-content/uploads/2015/09/tfj-sc-03-150x150.jpg" alt="tfj-sc-03" class="size-thumbnail wp-image-1903" width="150" height="150"></a> <a href="https://www.i4ware.fi/wp-content/uploads/2019/03/2019-03-08-3.png"><img src="https://www.i4ware.fi/wp-content/uploads/2019/03/2019-03-08-3-150x150.png" alt="tfj-sc-08" class="size-thumbnail wp-image-1903" width="150" height="150"></a></p>
+
+				
+	
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Our Customers.</h3>
+      <p>i4ware Software has various clients from within software development industry, among others. Our company primarily makes projects as a subcontractor for software development companies, advertising agencies and agents. Also we have a clients from abroad for our Atlassian Jira and Confluence Plugins.</p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Satisfaction</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Delivery Time</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Customer Needs</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">90%</div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Section -->
+<div class="entry-content">
+		
+		
+<h4>Our Honourable Customers</h4>
+<p>&nbsp;</p>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td align="center" valign="middle"><a href="http://www.gpd.fi/" target="_blank"><img title="gpd-logo" alt="" src="https://www.i4ware.fi/wp-content/uploads/2012/07/gpd-logo.gif" width="169" height="65" border="0"></a></td>
+<td align="center" valign="middle"><a href="http://doberman.fi/" target="_blank"><img title="logo" alt="" src="https://www.i4ware.fi/wp-content/uploads/2012/07/logo.jpg" width="151" height="29" border="0"></a></td>
+<td align="center" valign="middle"><a href="http://www.finitec.fi/" target="_blank"><img class="size-full wp-image-1623 aligncenter" alt="logo-finitec" src="https://www.i4ware.fi/wp-content/uploads/2012/07/logo-finitec.png" width="187" height="49"></a></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><a href="http://www.geniem.com/" target="_blank"><img title="geniem" alt="" src="https://www.i4ware.fi/wp-content/uploads/2012/07/geniem.png" width="184" height="51" border="0"></a></td>
+<td align="center" valign="middle"><a href="http://www.browsersoft.com/" target="_blank"><img title="Browsersoft" alt="" src="https://www.i4ware.fi/wp-content/uploads/2012/07/Browsersoft.jpg" width="184" height="41" border="0"></a></td>
+<td align="center" valign="middle"><a href="http://www.itglobal.ru/" target="_blank"><img title="logo_itg" alt="" src="https://www.i4ware.fi/wp-content/uploads/2012/07/logo_itg.png" width="180" height="57" border="0"></a></td>
+</tr>
+<tr>
+<td align="center" valign="middle"><a href="http://www.mediamaisteri.com/" target="_blank"><img class="aligncenter size-full wp-image-1639" alt="mediamaisteri" src="https://www.i4ware.fi/wp-content/uploads/2012/07/mediamaisteri.png" width="150" height="180"></a></td>
+<td align="center" valign="middle"><a href="http://www.appcelerator.com/" target="_blank"><img title="APPC_stacked" alt="" src="https://www.i4ware.fi/wp-content/uploads/2012/07/APPC_stacked.jpg" width="150" height="150" border="0"></a></td>
+<td align="center" valign="middle"><a href="http://www.eduix.fi/" target="_blank"><img class="aligncenter size-full wp-image-1645" alt="eduix-logo" src="https://www.i4ware.fi/wp-content/uploads/2012/07/eduix-logo.png" width="100" height="129"></a></td>
+</tr><tr>
+<td align="left" valign="middle" colspan="2"><a href="http://www.kommerstate.ru/" target="_blank"><img src="https://www.i4ware.fi/wp-content/uploads/2012/07/logokommerstate.png" alt="logokommerstate" width="220" height="40" class="aligncenter size-full wp-image-1662"></a><p></p>
+<p></p></td>
+<td align="center" valign="middle"><a href="http://www.planeetta.net" target="_blank"><img class="aligncenter size-full wp-image-1788" alt="image_planeetta_logo" src="https://www.i4ware.fi/wp-content/uploads/2012/07/image_planeetta_logo.gif" width="82" height="61"></a><p></p>
+<p></p></td>
+</tr><tr>
+<td><a href="http://www.sigmatic.fi" target="_blank"><img src="https://www.i4ware.fi/wp-content/uploads/2012/07/logo-2-150x150.gif" alt="logo-2" width="150" height="150" class="aligncenter size-thumbnail wp-image-1790"></a></td>
+<td><a href="http://www.openankus.org" target="_blank"><img src="https://www.i4ware.fi/wp-content/uploads/2014/07/logo_Ankus.png" alt="logo_Ankus" width="150" height="150" class="aligncenter size-thumbnail wp-image-1790"></a></td>
+<td><a href="http://www.servoy.com/" target="_blank"><img src="https://www.i4ware.fi/wp-content/uploads/2014/08/servoy_logo.png" alt="logo_Ankus" width="150" height="37" class="aligncenter size-thumbnail wp-image-1790"></a><p></p>
+<p></p></td>
+</tr>
+<tr>
+<td><a href="http://c-path.org/" target="_blank"><img src="https://www.i4ware.fi/wp-content/uploads/2014/09/logo.png" alt="logo_Ankus" width="182" height="77" class="aligncenter size-thumbnail wp-image-1790"></a></td>
+<td><a href="https://containt.org/" target="_blank"><img src="https://www.i4ware.fi/wp-content/uploads/2015/02/containt_logo_web.png" alt="logo_Containt" width="115" height="80" class="aligncenter size-thumbnail wp-image-1790"></a></td>
+<td><a href="http://www.hybrionic.de/" target="_blank"><img src="https://www.i4ware.fi/wp-content/uploads/2012/07/logo-hybrionic.png" alt="logo-hybrionic" width="200" height="36" class="aligncenter size-thumbnail wp-image-1790"></a></td>
+</tr>
+<tr>
+<td><a href="http://www.mml-group.eu/" target="_blank"><img src="https://www.i4ware.fi/wp-content/uploads/2015/11/logo-mml.png" alt="logo_MML" width="120" height="41" class="aligncenter size-thumbnail wp-image-1790"></a></td>
+<td><a href="http://www.ssjr.fi/" target="_blank"><img src="https://www.i4ware.fi/wp-content/uploads/2015/11/ssjr_logo.png" alt="logo_SSJR" width="156" height="112" class="aligncenter size-thumbnail wp-image-1790"></a></td>
+<td><a href="http://www.ratayhtio.fi/" target="_blank"><img src="https://www.i4ware.fi/wp-content/uploads/2015/11/logo-rata.png" alt="logo_RATA" width="120" height="50" class="aligncenter size-thumbnail wp-image-1790"></a></td>
+</tr>
+<tr>
+<td><a href="http://www.traxess.ch/" target="_blank"><img src="https://www.i4ware.fi/wp-content/uploads/2012/07/200x66_highdef.gif" alt="logo" width="200" height="66" class="aligncenter size-thumbnail wp-image-1790"></a></td>
+<td><a href="http://fortunesociety.org/" target="_blank"><img src="https://www.i4ware.fi/wp-content/uploads/2016/06/fortunesociety.png" alt="logo" width="36" height="29" class="aligncenter size-thumbnail wp-image-1790"></a></td>
+<td><a href="http://www.jarkeva.fi" target="_blank"><img src="https://www.i4ware.fi/wp-content/uploads/2012/07/jarkeva-logo-musta.png" alt="" width="148" height="66" class="aligncenter size-full wp-image-2037"></a></td>
+</tr>
+<tr>
+<td>
+<div style="padding-top: 20px;"></div>
+<p><a href="https://www.avoset.fi/" target="_blank"><img src="https://www.i4ware.fi/wp-content/uploads/2017/09/avoset_logo-2x.png" alt="logo" width="172" height="46" class="aligncenter size-thumbnail wp-image-1790"></a></p></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+		
+				
+	</div>
+<div class="w3-container w3-center w3-dark-grey" style="padding:70px 16px" id="pricing">
+  <h3>Career</h3>
+  <p class="w3-large">We are looking for employees for our possible open positions and if its match your needs you can submit an open application to our company.</p>
+    
+    <div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+			
+			        
+        <header class="entry-header">
+            
+                            
+               
+                    
+    	            		        <div class="breadcrumbs">
+    		            <!-- Breadcrumb NavXT 6.4.0 -->
+		        </div>
+    	            	        
+    	                
+        </header><!-- .entry-header -->
+    
+    			
+			
+				
+<article id="post-2481" class="post-2481 page type-page status-publish hentry">
+	
+		
+	<div class="entry-content">
+		
+		
+<p>Required skill is various in programming. Can be PHP/HTML/JavaScript/CSS/AJAX/MySQL or something else.</p>
+<p>Submit a job application here: </p>
+<p><input type="button" value="Submit an Application" onclick="window.open('https://application.i4ware.fi/','popUpWindow','height=1000,width=1000,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">.</p>
+<p>And you get user accont to here to update your application: <a href="https://my.i4ware.fi/" rel="noopener noreferrer" target="_blank">https://my.i4ware.fi/</a> ; as email.</p>
+		
+				
+	</div><!-- .entry-content -->
+
+</article><!-- #post-## -->
+
+				
+						
+		</main><!-- #main -->
+	</div>
+    
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+   <p><strong>i4ware Software</strong><br>
+Email: <a href="mailto:info@i4ware.fi">info@i4ware.fi</a> and <a href="mailto:sales@i4ware.fi">sales@i4ware.fi</a>.<br>
+Mobilephone: +358 40 8200 691<br>
+Business ID: 2739594-6<br>
+VAT-ID: FI27395946<br>
+Registered Address: Ilmarinkatu 36 D 48, 33500 TAMPERE, Finland</p>
+      
+      <div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://www.i4ware.fi/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate=""><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required="required"></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" required="required"></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" required="required"></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200"></p>
+<p class="cptch_block"><span class="cptch_wrap cptch_math_actions">
+				<label class="cptch_label" for="cptch_input_2"><span class="cptch_span">four</span>
+					<span class="cptch_span">&nbsp;+&nbsp;</span>
+					<span class="cptch_span">one</span>
+					<span class="cptch_span">&nbsp;=&nbsp;</span>
+					<span class="cptch_span"><input id="cptch_input_2" class="cptch_input cptch_wp_comments" type="text" autocomplete="off" name="cptch_number" value="" maxlength="2" size="2" aria-required="true" required="required" style="margin-bottom:0;display:inline;font-size: 12px;width: 40px;"></span>
+					<input type="hidden" name="cptch_result" value="aPk="><input type="hidden" name="cptch_time" value="1584409343">
+					<input type="hidden" name="cptch_form" value="wp_comments">
+				</label><span class="cptch_reload_button_wrap hide-if-no-js">
+					<noscript>
+						<style type="text/css">
+							.hide-if-no-js {
+								display: none !important;
+							}
+						</style>
+					</noscript>
+					<span class="cptch_reload_button dashicons dashicons-update"></span>
+				</span></span></p><p class="form-submit"> <input type="hidden" name="comment_post_ID" value="285" id="comment_post_ID">
+<input type="hidden" name="comment_parent" id="comment_parent" value="0">
+</p><div class="g-recaptcha" data-sitekey="6LcUAf8SAAAAAMH7PwzBjyDrLhpsI3FpgooIQZpz" data-theme="standard"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcUAf8SAAAAAMH7PwzBjyDrLhpsI3FpgooIQZpz&amp;co=aHR0cHM6Ly93d3cuaTR3YXJlLmZpOjQ0Mw..&amp;hl=en&amp;v=f1wAZV34wmOO4-wA3kszbUcM&amp;theme=standard&amp;size=normal&amp;cb=3dprsjiovd8o" width="304" height="78" role="presentation" name="a-4rvy8uyqyn4z" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div><script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en"></script>            <div id="recaptcha-submit-btn-area">&nbsp;<input name="submit" type="submit" id="submit" class="submit" value="Post Comment" tabindex="6"></div>
+            <noscript>
+            <style type='text/css'>#submit {display:none;}</style>
+            <input name="submit" type="submit" id="submit-alt" tabindex="6"
+                value="Submit Comment"/> 
+            </noscript>        
+        <input type="hidden" name="icl_comment_language" value="en">
+        
+          
+        </form>	</div>
+
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            
+        </button>
+      </p>
+    </form>
+    <!-- Image of location/map -->
+    <img src= class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
